@@ -72,7 +72,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter layout demo',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Flutter layout demo'),
+          title: const Text('My Lake App'),
         ),
         body: Column(
           children: [Image.asset('images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,), titleSection, buttonSection, textSection],
